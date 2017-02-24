@@ -2,11 +2,19 @@
 <html>
 <head>
 	<title>Not-Instagram</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
-	<script type="text/javascript" src="handlebars-v4.0.5.js"></script>
-	<script type="text/javascript" src="main.js"></script>
+	<div id="data-container"></div>
+
+	<script id="dataTemplate" type="text/x-handlebars-template">
+		{{#each data}}
+			<p>{{name}}</p>
+		{{/each}}
+	</script>
+
+	<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
