@@ -99,3 +99,9 @@ ul{
 .img-contaier img{
 	max-width: 100%;
 }
+
+@media (max-width: 1020px){
+	#data-container{
+		-webkit-justify-content: center;
+	}
+}
