@@ -103,6 +103,7 @@ ul{
 .img-container{
 	/*box-sizing: border-box;*/
 	/*width: 40%;*/
+	margin-bottom: 10px;
 }
 
 .img-contaier img{
