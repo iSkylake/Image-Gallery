@@ -41,7 +41,7 @@ ul{
 	flex: auto;
 	background-color: #FFF;
 	/*box-shadow: inset 0 -1px 0 #e5e3e8;*/
-	border-bottom: solid 1px #e5e3e8;
+	border: solid 1px #e5e3e8;
 }
 
 #header ul li{
@@ -49,6 +49,7 @@ ul{
 	padding: 10px;
 	font-size: 100%;
 	border-right: solid 1px #e5e3e8;
+	margin: 0;
 	/*border-left: solid 1px #e5e3e8;*/
 }
 
@@ -69,6 +70,14 @@ ul{
 .count{
 	color: #a49fad;
 }
+
+#header ul li:hover span, #header ul li:hover:not(:first-child){
+	color: #1cadeb;
+}
+
+/*#header ul li:hover:not(:first-child){
+	border-bottom: solid 4px #e5e3e8;
+}*/
 
 /*#header-img{
 	background-image: url('../img/ACHeaderMod.jpg');
